@@ -1,0 +1,7 @@
+make: Nothing to be done for 'SDL2'.
+make: Nothing to be done for 'SDL2_image'.
+make: Nothing to be done for 'SDL2_mixer'.
+[arm64-v8a] Compile++      : main <= project_main.cpp
+[arm64-v8a] Compile++      : main <= scenario.cpp
+[arm64-v8a] SharedLibrary  : libmain.so
+make: Nothing to be done for 'mpg123'.

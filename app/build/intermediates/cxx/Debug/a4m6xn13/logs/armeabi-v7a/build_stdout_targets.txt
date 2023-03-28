@@ -1,0 +1,11 @@
+make: Nothing to be done for 'SDL2'.
+make: Nothing to be done for 'SDL2_image'.
+make: Nothing to be done for 'SDL2_mixer'.
+[armeabi-v7a] Compile++ thumb: main <= project_main.cpp
+[armeabi-v7a] Compile++ thumb: main <= base_object.cpp
+[armeabi-v7a] Compile++ thumb: main <= mouse.cpp
+[armeabi-v7a] Compile++ thumb: main <= scenario.cpp
+[armeabi-v7a] Compile++ thumb: main <= game_element_set.cpp
+[armeabi-v7a] Compile++ thumb: main <= sound_effects.cpp
+[armeabi-v7a] SharedLibrary  : libmain.so
+make: Nothing to be done for 'mpg123'.

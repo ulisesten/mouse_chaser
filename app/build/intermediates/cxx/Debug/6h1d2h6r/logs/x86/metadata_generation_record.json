@@ -1,0 +1,156 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: x86",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1309462005
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/6h1d2h6r/x86/android_gradle_build.json due to:",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1411844822
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -869671686
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/6h1d2h6r/x86\u0027",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1931065527
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/6h1d2h6r/x86\u0027",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 879132757
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild /home/ulises/Android/Sdk/ndk/23.1.7779620/ndk-build \\\n  NDK_PROJECT_PATH\u003dnull \\\n  APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk \\\n  NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk \\\n  APP_ABI\u003dx86 \\\n  NDK_ALL_ABIS\u003dx86 \\\n  NDK_DEBUG\u003d1 \\\n  NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/obj \\\n  NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/lib \\\n  APP_PLATFORM\u003dandroid-16 \\\n  APP_STL\u003dc++_static \\\n  APP_SHORT_COMMANDS\u003dfalse \\\n  LOCAL_SHORT_COMMANDS\u003dfalse \\\n  -B \\\n  -n\n",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 305927340
+  },
+  {
+    "level_": 0,
+    "message_": "/home/ulises/Android/Sdk/ndk/23.1.7779620/ndk-build \\\n  NDK_PROJECT_PATH\u003dnull \\\n  APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk \\\n  NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk \\\n  APP_ABI\u003dx86 \\\n  NDK_ALL_ABIS\u003dx86 \\\n  NDK_DEBUG\u003d1 \\\n  NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/obj \\\n  NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/lib \\\n  APP_PLATFORM\u003dandroid-16 \\\n  APP_STL\u003dc++_static \\\n  APP_SHORT_COMMANDS\u003dfalse \\\n  LOCAL_SHORT_COMMANDS\u003dfalse \\\n  -B \\\n  -n\n",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1486649977
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -229852972
+  },
+  {
+    "level_": 0,
+    "message_": "found application make file /run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2131450050
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1634993594
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1341610122
+  }
+]

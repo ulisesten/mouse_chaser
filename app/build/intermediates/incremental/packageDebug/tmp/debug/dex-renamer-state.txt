@@ -1,0 +1,4 @@
+#Sat Jan 07 20:49:58 CST 2023
+base.0=/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

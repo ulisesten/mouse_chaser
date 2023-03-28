@@ -1,0 +1,94 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/ulisesten/Documents/android-project/app/jni/CMakeLists.txt",
+    "/home/ulisesten/Documents/android-project/app/jni/src/CMakeLists.txt",
+    "/home/ulisesten/Documents/android-project/app/jni/SDL2/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SDL2-static-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+        "SDL2-static"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "SDL2-static",
+      "output": "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64/SDL2/libSDL2.a"
+    },
+    "SDL2-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+        "SDL2"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "SDL2",
+      "output": "/home/ulisesten/Documents/android-project/app/build/intermediates/cxx/Debug/295y3y4e/obj/x86_64/libSDL2.so",
+      "runtimeFiles": []
+    },
+    "main-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+        "main"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "main",
+      "output": "/home/ulisesten/Documents/android-project/app/build/intermediates/cxx/Debug/295y3y4e/obj/x86_64/libmain.so",
+      "runtimeFiles": [
+        "/home/ulisesten/Documents/android-project/app/build/intermediates/cxx/Debug/295y3y4e/obj/x86_64/libSDL2.so"
+      ]
+    },
+    "SDL2main-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+        "SDL2main"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "SDL2main",
+      "output": "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64/SDL2/libSDL2main.a"
+    },
+    "uninstall-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86_64",
+        "uninstall"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "uninstall"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

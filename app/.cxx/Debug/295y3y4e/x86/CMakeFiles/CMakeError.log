@@ -1,0 +1,975 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e8f61"
+[1/2] Building C object CMakeFiles/cmTC_e8f61.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e8f61.dir/src.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos" -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -fPIE -o CMakeFiles/cmTC_e8f61.dir/src.c.o   -c src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int x = 0; int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0c622"
+[1/2] Building C object CMakeFiles/cmTC_0c622.dir/src.c.o
+FAILED: CMakeFiles/cmTC_0c622.dir/src.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos" -DHAVE_ALTIVEC_H_HDR -maltivec -fPIE -o CMakeFiles/cmTC_0c622.dir/src.c.o   -c src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+In file included from src.c:2:
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:13:2: error: "AltiVec support not enabled"
+#error "AltiVec support not enabled"
+ ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:48:19: error: unknown type name 'vector'
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                  ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:49:5: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+    ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:49:29: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                            ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:49:53: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                                                    ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:51:19: error: unknown type name 'vector'
+static __inline__ vector unsigned char __ATTRS_o_ai
+                  ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:52:10: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+         ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:52:36: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+                                   ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:53:10: error: unknown type name 'vector'
+         vector unsigned char __c);
+         ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:55:19: error: unknown type name 'vector'
+static __inline__ vector bool char __ATTRS_o_ai
+                  ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:55:8: error: 'inline' can only appear on functions
+static __inline__ vector bool char __ATTRS_o_ai
+       ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:55:30: error: expected ';' after top level declarator
+static __inline__ vector bool char __ATTRS_o_ai
+                             ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:56:10: error: unknown type name 'vector'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+         ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:56:22: error: expected ')'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+                     ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:56:9: note: to match this '('
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+        ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:58:19: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                  ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:58:54: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                                                     ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:59:54: error: unknown type name 'vector'
+                                                     vector signed short __b,
+                                                     ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:60:54: error: unknown type name 'vector'
+                                                     vector unsigned char __c);
+                                                     ^
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.9/include/altivec.h:62:19: error: unknown type name 'vector'
+static __inline__ vector unsigned short __ATTRS_o_ai
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9e836"
+[1/2] Building C object CMakeFiles/cmTC_9e836.dir/src.c.o
+FAILED: CMakeFiles/cmTC_9e836.dir/src.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos" -DHAVE_ALTIVEC -maltivec -fPIE -o CMakeFiles/cmTC_9e836.dir/src.c.o   -c src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+src.c:2:11: error: unknown type name 'vector'
+          vector unsigned int vzero() {
+          ^
+src.c:3:22: warning: implicit declaration of function 'vec_splat_u32' is invalid in C99 [-Wimplicit-function-declaration]
+              return vec_splat_u32(0);
+                     ^
+1 warning and 1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_59fd6"
+[1/2] Building C object CMakeFiles/cmTC_59fd6.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_59fd6.dir/CheckIncludeFile.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_59fd6.dir/CheckIncludeFile.c.o   -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: 'libunwind.h' file not found
+#include <libunwind.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Determining if the bcopy exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d058a"
+[1/2] Building C object CMakeFiles/cmTC_d058a.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d058a.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_d058a.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'bcopy'
+  return ((int*)(&bcopy))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strrev exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_60069"
+[1/2] Building C object CMakeFiles/cmTC_60069.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_60069.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_60069.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'; did you mean 'strsep'?
+  return ((int*)(&_strrev))[argc];
+                  ^~~~~~~
+                  strsep
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h:150:7: note: 'strsep' declared here
+char* strsep(char** __s_ptr, const char* __delimiter);
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strupr exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fa807"
+[1/2] Building C object CMakeFiles/cmTC_fa807.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_fa807.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_fa807.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
+  return ((int*)(&_strupr))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strlwr exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b8a7d"
+[1/2] Building C object CMakeFiles/cmTC_b8a7d.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b8a7d.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_b8a7d.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'; did you mean 'strstr'?
+  return ((int*)(&_strlwr))[argc];
+                  ^~~~~~~
+                  strstr
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h:112:7: note: 'strstr' declared here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the index exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a2aec"
+[1/2] Building C object CMakeFiles/cmTC_a2aec.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:14:19: warning: implicitly declaring library function 'index' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&index))[argc];
+                  ^
+CheckSymbolExists.c:14:19: note: include the header <strings.h> or explicitly provide a declaration for 'index'
+1 warning generated.
+[2/2] Linking C executable cmTC_a2aec
+FAILED: cmTC_a2aec 
+: && /run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_a2aec.dir/CheckSymbolExists.c.o  -o cmTC_a2aec  -latomic -lm && :
+CheckSymbolExists.c:11: error: undefined reference to 'index'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rindex exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_538f9"
+[1/2] Building C object CMakeFiles/cmTC_538f9.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:14:19: warning: implicitly declaring library function 'rindex' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&rindex))[argc];
+                  ^
+CheckSymbolExists.c:14:19: note: include the header <strings.h> or explicitly provide a declaration for 'rindex'
+1 warning generated.
+[2/2] Linking C executable cmTC_538f9
+FAILED: cmTC_538f9 
+: && /run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_538f9.dir/CheckSymbolExists.c.o  -o cmTC_538f9  -latomic -lm && :
+CheckSymbolExists.c:11: error: undefined reference to 'rindex'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_704a7"
+[1/2] Building C object CMakeFiles/cmTC_704a7.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_704a7.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_704a7.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
+  return ((int*)(&itoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2ff8f"
+[1/2] Building C object CMakeFiles/cmTC_2ff8f.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2ff8f.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_2ff8f.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
+  return ((int*)(&_ltoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_05d0c"
+[1/2] Building C object CMakeFiles/cmTC_05d0c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_05d0c.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_05d0c.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
+  return ((int*)(&_uitoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _ultoa exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c2102"
+[1/2] Building C object CMakeFiles/cmTC_c2102.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c2102.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_c2102.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
+  return ((int*)(&_ultoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cef6f"
+[1/2] Building C object CMakeFiles/cmTC_cef6f.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_cef6f.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_cef6f.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
+  return ((int*)(&_i64toa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_521f5"
+[1/2] Building C object CMakeFiles/cmTC_521f5.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_521f5.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_521f5.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
+  return ((int*)(&_ui64toa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1c1ea"
+[1/2] Building C object CMakeFiles/cmTC_1c1ea.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_1c1ea.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_1c1ea.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
+  return ((int*)(&_stricmp))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3d5fd"
+[1/2] Building C object CMakeFiles/cmTC_3d5fd.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_3d5fd.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_3d5fd.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&_strnicmp))[argc];
+                  ^~~~~~~~~
+                  strncmp
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_80fca"
+[1/2] Building C object CMakeFiles/cmTC_80fca.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_80fca.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_80fca.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
+  return ((int*)(&_wcsdup))[argc];
+                  ^~~~~~~
+                  wcsdup
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/wchar.h:208:10: note: 'wcsdup' declared here
+wchar_t* wcsdup(const wchar_t* __s);
+         ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_14dea"
+[1/2] Building C object CMakeFiles/cmTC_14dea.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_14dea.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_14dea.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
+  return ((int*)(&_wcsicmp))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_34856"
+[1/2] Building C object CMakeFiles/cmTC_34856.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_34856.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_34856.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
+  return ((int*)(&_wcsnicmp))[argc];
+                  ^~~~~~~~~
+                  wcsncmp
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/wchar.h:117:5: note: 'wcsncmp' declared here
+int wcsncmp(const wchar_t* __lhs, const wchar_t* __rhs, size_t __n);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fopen64 exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0b423"
+[1/2] Building C object CMakeFiles/cmTC_0b423.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_0b423.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_0b423.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
+  return ((int*)(&fopen64))[argc];
+                  ^~~~~~~
+                  fopen
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h:280:7: note: 'fopen' declared here
+FILE* fopen(const char* __path, const char* __mode);
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fseeko64 exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d4f3b"
+[1/2] Building C object CMakeFiles/cmTC_d4f3b.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d4f3b.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_d4f3b.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
+  return ((int*)(&fseeko64))[argc];
+                  ^~~~~~~~
+                  fseeko
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h:250:5: note: 'fseeko' declared here
+int fseeko(FILE* __fp, off_t __offset, int __whence);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_35157"
+[1/2] Building C object CMakeFiles/cmTC_35157.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_35157.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_35157.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:3:10: fatal error: 'sys/sysctl.h' file not found
+#include <sys/sysctl.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getauxval exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_21969"
+[1/2] Building C object CMakeFiles/cmTC_21969.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_21969.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_21969.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:8:19: error: use of undeclared identifier 'getauxval'
+  return ((int*)(&getauxval))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_87067"
+[1/2] Building C object CMakeFiles/cmTC_87067.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_87067.dir/CheckSymbolExists.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -fPIE -o CMakeFiles/cmTC_87067.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:8:19: error: use of undeclared identifier 'elf_aux_info'
+  return ((int*)(&elf_aux_info))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ceb20"
+[1/2] Building C object CMakeFiles/cmTC_ceb20.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ceb20
+FAILED: cmTC_ceb20 
+: && /run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_ceb20.dir/CheckFunctionExists.c.o  -o cmTC_ceb20  -liconv -latomic -lm && :
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: error: cannot find -liconv
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'iconv_open'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function iconv_open exists in the c failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_efa3c"
+[1/2] Building C object CMakeFiles/cmTC_efa3c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_efa3c
+FAILED: cmTC_efa3c 
+: && /run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_efa3c.dir/CheckFunctionExists.c.o  -o cmTC_efa3c  -lc -latomic -lm && :
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:17: error: undefined reference to 'iconv_open'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_50249"
+[1/2] Building C object CMakeFiles/cmTC_50249.dir/CheckSymbolExists.c.o
+CheckSymbolExists.c:8:19: warning: implicitly declaring library function 'alloca' with type 'void *(unsigned int)' [-Wimplicit-function-declaration]
+  return ((int*)(&alloca))[argc];
+                  ^
+CheckSymbolExists.c:8:19: note: include the header <stdlib.h> or explicitly provide a declaration for 'alloca'
+1 warning generated.
+[2/2] Linking C executable cmTC_50249
+FAILED: cmTC_50249 
+: && /run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_50249.dir/CheckSymbolExists.c.o  -o cmTC_50249  -latomic -lm && :
+CheckSymbolExists.c:5: error: undefined reference to 'alloca'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+File /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: /home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_688af"
+[1/2] Building C object CMakeFiles/cmTC_688af.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_688af.dir/CheckIncludeFiles.c.o 
+/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -idirafter "/home/ulisesten/Documents/android-project/app/jni/SDL2/src/video/khronos"    -fPIE -o CMakeFiles/cmTC_688af.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+

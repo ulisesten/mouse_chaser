@@ -1,0 +1,151 @@
+{
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/6h1d2h6r/x86",
+  "soFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/obj/local/x86",
+  "soRepublishFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/ndkBuild/debug/obj/local/x86",
+  "abiPlatformVersion": 16,
+  "variant": {
+    "buildSystemArgumentList": [
+      "APP_PLATFORM\u003dandroid-16",
+      "APP_STL\u003dc++_static"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx",
+      "intermediatesBaseFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates",
+      "intermediatesFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/run/media/ulises/SSD2/Documentos/android-project/app",
+      "moduleBuildFile": "/run/media/ulises/SSD2/Documentos/android-project/app/build.gradle",
+      "makeFile": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "ndkFolder": "/home/ulises/Android/Sdk/ndk/23.1.7779620",
+      "ndkVersion": "23.1.7779620",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 31,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/home/ulises/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/ulises/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/ulises/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/ulises/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/ulises/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/run/media/ulises/SSD2/Documentos/android-project",
+        "sdkFolder": "/home/ulises/Android/Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": []
+    },
+    "prefabClassPaths": [],
+    "prefabPackages": [],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/6h1d2h6r/prefab/x86",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "6h1d2h6r2j3k1e5h6w5929236h4j5k5s6d321p6m1m2e6g5s621z684x6jyo5p",
+  "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 7.4.2.\n#   - $NDK is the path to NDK 23.1.7779620.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d$PROJECT/app/jni/Android.mk\nNDK_APPLICATION_MK\u003d$PROJECT/app/jni/Application.mk\nAPP_ABI\u003d$ABI\nNDK_ALL_ABIS\u003d$ABI\nNDK_DEBUG\u003d1\nNDK_OUT\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj\nNDK_LIBS_OUT\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/lib\nAPP_PLATFORM\u003dandroid-16\nAPP_STL\u003dc++_static",
+  "configurationArguments": [
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+    "APP_ABI\u003dx86",
+    "NDK_ALL_ABIS\u003dx86",
+    "NDK_DEBUG\u003d1",
+    "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/obj",
+    "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/lib",
+    "APP_PLATFORM\u003dandroid-16",
+    "APP_STL\u003dc++_static"
+  ],
+  "intermediatesParentFolder": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r"
+}

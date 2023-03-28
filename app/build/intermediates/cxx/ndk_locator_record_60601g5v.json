@@ -1,0 +1,11 @@
+{
+  "ndk": "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620",
+  "revision": {
+    "mMajor": 23,
+    "mMinor": 1,
+    "mMicro": 7779620,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

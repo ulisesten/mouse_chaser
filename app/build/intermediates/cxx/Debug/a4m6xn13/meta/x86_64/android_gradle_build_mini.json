@@ -1,0 +1,338 @@
+{
+  "buildFiles": [
+    "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+      "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+      "APP_ABI\u003dx86_64",
+      "NDK_ALL_ABIS\u003dx86_64",
+      "NDK_DEBUG\u003d1",
+      "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+      "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+      "APP_PLATFORM\u003dandroid-16",
+      "APP_STL\u003dc++_static",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+    "APP_ABI\u003dx86_64",
+    "NDK_ALL_ABIS\u003dx86_64",
+    "NDK_DEBUG\u003d1",
+    "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+    "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+    "APP_PLATFORM\u003dandroid-16",
+    "APP_STL\u003dc++_static",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "main-debug-x86_64": {
+      "artifactName": "main",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libmain.so"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libmain.so",
+      "runtimeFiles": []
+    },
+    "vorbisidec-debug-x86_64": {
+      "artifactName": "vorbisidec",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libvorbisidec.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libvorbisidec.a",
+      "runtimeFiles": []
+    },
+    "timidity-debug-x86_64": {
+      "artifactName": "timidity",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libtimidity.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libtimidity.a",
+      "runtimeFiles": []
+    },
+    "jpeg-debug-x86_64": {
+      "artifactName": "jpeg",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libjpeg.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libjpeg.a",
+      "runtimeFiles": []
+    },
+    "png-debug-x86_64": {
+      "artifactName": "png",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libpng.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libpng.a",
+      "runtimeFiles": []
+    },
+    "SDL2_mixer-debug-x86_64": {
+      "artifactName": "SDL2_mixer",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libSDL2_mixer.so"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libSDL2_mixer.so",
+      "runtimeFiles": []
+    },
+    "webp-debug-x86_64": {
+      "artifactName": "webp",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libwebp.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libwebp.a",
+      "runtimeFiles": []
+    },
+    "modplug-debug-x86_64": {
+      "artifactName": "modplug",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libmodplug.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libmodplug.a",
+      "runtimeFiles": []
+    },
+    "ogg-debug-x86_64": {
+      "artifactName": "ogg",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libogg.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libogg.a",
+      "runtimeFiles": []
+    },
+    "SDL2-debug-x86_64": {
+      "artifactName": "SDL2",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libSDL2.so"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libSDL2.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-debug-x86_64": {
+      "artifactName": "cpufeatures",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libcpufeatures.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "webpdecoder_static-debug-x86_64": {
+      "artifactName": "webpdecoder_static",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libwebpdecoder_static.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libwebpdecoder_static.a",
+      "runtimeFiles": []
+    },
+    "FLAC-debug-x86_64": {
+      "artifactName": "FLAC",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libFLAC.a"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libFLAC.a",
+      "runtimeFiles": []
+    },
+    "SDL2_image-debug-x86_64": {
+      "artifactName": "SDL2_image",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libSDL2_image.so"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libSDL2_image.so",
+      "runtimeFiles": []
+    },
+    "mpg123-debug-x86_64": {
+      "artifactName": "mpg123",
+      "buildCommandComponents": [
+        "/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk",
+        "APP_ABI\u003dx86_64",
+        "NDK_ALL_ABIS\u003dx86_64",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj",
+        "NDK_LIBS_OUT\u003d/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/lib",
+        "APP_PLATFORM\u003dandroid-16",
+        "APP_STL\u003dc++_static",
+        "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libmpg123.so"
+      ],
+      "abi": "x86_64",
+      "output": "/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/a4m6xn13/obj/local/x86_64/libmpg123.so",
+      "runtimeFiles": []
+    }
+  }
+}

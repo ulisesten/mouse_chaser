@@ -1,0 +1,15 @@
+/home/ulises/Android/Sdk/ndk/23.1.7779620/ndk-build \
+  NDK_PROJECT_PATH=null \
+  APP_BUILD_SCRIPT=/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk \
+  NDK_APPLICATION_MK=/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk \
+  APP_ABI=x86 \
+  NDK_ALL_ABIS=x86 \
+  NDK_DEBUG=1 \
+  NDK_OUT=/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/obj \
+  NDK_LIBS_OUT=/run/media/ulises/SSD2/Documentos/android-project/app/build/intermediates/cxx/Debug/6h1d2h6r/lib \
+  APP_PLATFORM=android-16 \
+  APP_STL=c++_static \
+  APP_SHORT_COMMANDS=false \
+  LOCAL_SHORT_COMMANDS=false \
+  -B \
+  -n

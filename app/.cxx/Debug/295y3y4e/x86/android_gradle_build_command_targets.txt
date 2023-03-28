@@ -1,0 +1,8 @@
+Executable : /run/media/ulisesten/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/ulisesten/Documents/android-project/app/.cxx/Debug/295y3y4e/x86
+SDL2
+main
+jvmArgs : 
+

@@ -1,0 +1,2 @@
+/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk
+/run/media/ulises/SSD2/Documentos/android-project/app/jni/Application.mk

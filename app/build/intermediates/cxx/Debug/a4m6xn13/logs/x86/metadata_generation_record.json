@@ -1,0 +1,268 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: x86",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -181785513
+  },
+  {
+    "level_": 3,
+    "message_": "expected buildTargetsCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1410,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -254672559
+  },
+  {
+    "level_": 3,
+    "message_": "expected SDL2-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1455189000
+  },
+  {
+    "level_": 3,
+    "message_": "expected webpdecoder_static-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1634992846
+  },
+  {
+    "level_": 3,
+    "message_": "expected SDL2_image-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 346272724
+  },
+  {
+    "level_": 3,
+    "message_": "expected png-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 228217938
+  },
+  {
+    "level_": 3,
+    "message_": "expected SDL2_mixer-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1972372390
+  },
+  {
+    "level_": 3,
+    "message_": "expected webp-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -640835727
+  },
+  {
+    "level_": 3,
+    "message_": "expected cpufeatures-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1550796606
+  },
+  {
+    "level_": 3,
+    "message_": "expected modplug-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1313076251
+  },
+  {
+    "level_": 3,
+    "message_": "expected ogg-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1858643184
+  },
+  {
+    "level_": 3,
+    "message_": "expected mpg123-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1083765003
+  },
+  {
+    "level_": 3,
+    "message_": "expected FLAC-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 959976877
+  },
+  {
+    "level_": 3,
+    "message_": "expected main-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 956513586
+  },
+  {
+    "level_": 3,
+    "message_": "expected timidity-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1059548932
+  },
+  {
+    "level_": 3,
+    "message_": "expected vorbisidec-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1872914337
+  },
+  {
+    "level_": 3,
+    "message_": "expected jpeg-debug-x86.buildCommandComponents command \u0027/run/media/ulises/SSD2/Aplicaciones/android-studio-2020.3.1.25-linux/Sdk/ndk/23.1.7779620/ndk-build\u0027 to exist",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 1411,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -608496979
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027/run/media/ulises/SSD2/Documentos/android-project/app/build/.cxx/Debug/a4m6xn13/x86/android_gradle_build.json\u0027 was up-to-date",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 888669518
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/run/media/ulises/SSD2/Documentos/android-project/app/jni/Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -213933630
+  }
+]
